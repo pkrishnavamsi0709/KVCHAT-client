@@ -148,7 +148,7 @@ return (
                     </div>
                     <input className="p-2 rounded-xl border "type="password" name="cpassword" onChange={handleChange} placeholder="Confirm Password" value={info.cpassword}/>
                     <p className="-my-2 px-1 text-cyan-600">Upload Image</p>
-                    <input className="p-1 file:rounded-lg  rounded-xl border bg-slate-100 text-cyan-600 file:bg-violet-50"type="file"  accept="image/*" onChange={(e)=>{convImg(e.target.files[0])}} name="profile" value={img}/>
+                    <input className="p-1 file:rounded-lg  rounded-xl border bg-slate-100 text-cyan-600 file:bg-violet-50"type="file"  accept="image/*" onChange={(e)=>{convImg(e.target.files[0])}} name="profile"/>
                     
                     <button  className="bg-cyan-500 p-2 rounded-xl text-white md:hover:scale-105 duration-300" onClick={handleSubmit}>{loading?<div><i className="fa fa-circle-o-notch fa-spin"></i>Loading</div>:<p>SignUp</p>}</button>
                 </form>
