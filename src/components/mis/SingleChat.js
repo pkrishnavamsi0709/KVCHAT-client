@@ -6,7 +6,7 @@ import UpdateGroupChat from './UpdateGroupChat';
 
 import io from 'socket.io-client';
 
-const ENDPOINT ="http://localhost:5000";
+const ENDPOINT ="https://kvchat.onrender.com";
 var socket,selectedChatCompare;
 
 const SingleChat = (props) => {
