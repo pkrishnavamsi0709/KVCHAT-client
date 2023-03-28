@@ -11,7 +11,7 @@ const ChatPage = () => {
   const [selectedChat,setSelectedChat]=useState(false);
   const [fetchagain,setFetchAgain]=useState(false);
   const [notification,setNotification]=useState([]);
-  const host= "http://localhost:5000";
+  const host= "https://kvchat.onrender.com";
   
   return (
     <div className='md:bg-gray-100 h-screen flex-col'>
