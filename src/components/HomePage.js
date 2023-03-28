@@ -3,7 +3,7 @@ import { useNavigate } from "react-router";
 import Signup from "./Signup";
 
 const HomePage = () => {
-  const host="http://localhost:5000";
+  const host="https://kvchat.onrender.com";
   const navigate=useNavigate();
   const [show, setShow] = useState(false);
   const [login, setlogin] = useState(true);
